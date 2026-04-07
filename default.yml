@@ -29,7 +29,7 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-   org_info: 
+  org_info: 
     org_name: UW-River Falls
 
   server_settings:
