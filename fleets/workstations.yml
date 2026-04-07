@@ -71,7 +71,10 @@ controls:
       - path: ../platforms/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
         labels_include_all:
           - "Department: Engineering"
-  windows_settings:
+      - path: ../platforms/ios/configuration-profiles/passcode_settings.json
+        labels_exclude_any:
+          - "Department: Engineering"
+windows_settings:
     configuration_profiles:
       - paths: ../platforms/windows/configuration-profiles/*.xml
 
