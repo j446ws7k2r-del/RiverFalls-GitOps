@@ -183,6 +183,8 @@ software:
     #     - "x86-based Windows hosts"
 
   packages: # Custom packages (if any)
+    - path: ../platforms/windows/software/cloudflare-warp.yml
+      self_service: false
     # macOS custom packages
     # …
 
